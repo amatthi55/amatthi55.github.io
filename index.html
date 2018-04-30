@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+                <nav class="navbar navbar-inverse">
+                                <div class="container-fluid">
+                                 
+                                  <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li class="dropdown">
+                                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                                      <span class="caret"></span></a>
+                                      <ul class="dropdown-content">
+                                        <li><a href="#">Max Temperature</a></li>
+                                        <li><a href="#">Humidity</a></li>
+                                        <li><a href="#">Cloudiness</a></li>
+                                        <li><a href="#">Wind Speed</a></li>
+                                      </ul>
+                                    </li>
+                                    <li><a href="#">Comparison</a></li>
+                                    <li><a href="#">Data</a></li>
+                                  </ul>
+                                </div>
+                              </nav>
+    <header class="header">
+            <div class="container">
+                    
+                            <div class="col-md-5" id =textboxcolor>
+                                    <h1 id = "Center" class = "centertitle"> Latitude </h1>
+                                    <p id ="textfont">
+                                            The purpose of this dashboard is to explore how latitude affects weather.
+                                            Over five-hundred cities in the world were randomly selected based on their latitude and then represented as points
+                                            in two-dimensional graphs. The graphs on this dashboard show how cloudiness, wind speed, humidity, and temperature are affected by latitude.
+                                            <br />
+                                            <br />
+                                            The city and geographical coordinate data were collected from the citipy library and the weather data 
+                                            were taken from the openweathermap api.                                   
+                                    <br />
+                                    <br />
+                                    
+                
+                                        </p>
+                            </div>
+
+                            <div class="col-md-1">
+                            </div>     
+
+                            
+                            <div class="col-md-6" id= "textboxcolor">
+                                    <h1 id = "Center" class = "centertitle"> Visualizations </h1>
+
+
+                                           
+                            <a href="www.google.com">
+                                    <img src="Lat_Cloudin_Plot.png" alt="Latitude vs. Cloudiness" height="160" width="210" >
+                            </a>
+                            
+                                    
+                            <a href="www.google.com">
+                                    <img src="Lat_Humid_Plot.png" alt="Latitude vs. Humidity" height="160" width="210" >
+                                </a>
+                                    
+                                    <a href="www.google.com">
+                                            <img src="Lat_Temp_Plot.png" alt="Latitude vs. Humidity" height="160" width="210" >
+                                        </a>
+                            
+                                    <a href="www.google.com">
+                                            <img src="Lat_WSpeed_Plot.png" alt="Latitude vs. Humidity" height="160" width="210" >
+                                        </a>
+                                
+                                            </div>
+                    
+            </div>
+
+        
+        
+
+
+</html>
